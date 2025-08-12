@@ -297,6 +297,9 @@
                         color: var(--mynah-color-text-weak);
                         font-size: var(--mynah-font-size-small);
                         font-style: italic;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
                     }
                 }
             }
