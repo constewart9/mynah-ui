@@ -5,6 +5,7 @@ import testIds from '../../../src/helper/test-ids';
 export const renderQuickActionCommandsHeader = async (page: Page, skipScreenshots?: boolean): Promise<void> => {
   await waitForAnimationEnd(page);
 
+  // TEST
   // Clear the input
   const input = page.locator(getSelector(testIds.prompt.input));
   await input.clear();
